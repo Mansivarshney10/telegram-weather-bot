@@ -33,7 +33,7 @@ export class TelegramService {
         this.bot.sendMessage(chatId, 'Unsubscribed from daily weather updates');
       } else {
         // Handle other messages
-        this.bot.sendMessage(chatId, 'Received your message');
+        this.bot.sendMessage(chatId, 'Received your message type "/subscribe city" and to /unsubscribe to stop');
       }
     });
   }
